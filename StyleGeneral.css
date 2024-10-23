@@ -1,0 +1,271 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+
+
+/********************************* MODO MOBIL  ******************************/
+
+@media (max-width: 1870px) {
+    #contenedor3 {
+        padding: 54px 160px 0px 160px;
+    }
+}
+
+@media (max-width: 1650px) {
+    #contenedor3 {
+        padding: 54px 60px 0px 60px;
+    }
+    #partido iframe{
+        width: 70%;
+        height: 600px ;
+       transition: 1s;
+    }
+    #menj {
+        width: 79%;
+    }
+    #seci{
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 1476px) {
+    .sec1 h2 {
+        font-size: 4em;
+    }
+    #partido iframe{
+        height: 500px ;
+       transition: 1s;
+    }
+}
+
+@media (max-width: 1440px) {
+    #per {
+        grid-template-columns: 1fr 1fr;
+        padding: 54px 136px 0px 136px;
+        transition: 1s;
+
+    }
+    #redes {
+        padding: 8px 16px 8px 16px;
+    }
+    #redes>img {
+        padding: 8px;
+    }
+    #contenedor4 {
+        padding: 54px 0px 54px 0px;
+        transition: 1s;
+
+    }
+    .patroci img {
+       width: 70px;
+       padding: 32px;
+       transition: 1s;
+    }
+}
+@media (max-width: 1260px) {
+    .uno p:first-child,
+    .dos p:first-child,
+    .tres p:first-child,
+    .quatro p:first-child {
+    font-size: 20px;
+    }
+    #menj {
+        width: 83%;
+    }
+    #seci{
+        width: 85%;
+    }
+    #partido iframe{
+
+        height: 400px ;
+       transition: 1s;
+    }
+}
+@media (max-width: 1208px) {
+    #fondo {
+        grid-template-columns:  1fr 70% 12%;
+    }
+    .user a{
+        display: none;
+    }
+    .info {
+        text-align: right;
+        flex-direction: row-reverse;
+    }
+    #per {
+        padding: 54px 48px 0px 48px;
+        transition: 1s;
+    }
+
+}
+
+@media (max-width: 1130px) {
+    #fondo {
+        grid-template-columns:  1fr 20% 20%;
+    }
+    #menu-lateral{
+        display: block;
+    }
+    .fa-times{
+        display: block;
+        text-align: right;
+        padding: -20px 10px;
+    }
+    #menu{
+        background-color: #1D1D1D ;
+        transition: 1s;
+        list-style: none;
+        color: white;
+        position: fixed;
+        top: 0px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        padding: 40px 20px;
+        box-sizing: border-box;
+        text-align: right;
+        z-index: 2;
+    }
+    #menu a{
+        display: block;
+    }
+    .sec1 h2 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 900px) {
+    #menj {
+        height: auto;
+        position: relative;
+        display: block;
+    }
+    #inmiss {
+        margin: 16px;
+        position: absolute;
+        top: 16;
+        left: 120;
+    }
+    #user{
+        display: flex;   
+    }
+    .justar {
+        width: 100%;
+    }
+    .moreinfo {
+        margin-top: 48px;
+        margin-bottom: 16px ;
+        height: 10%;
+    }
+    #partido iframe{
+        height: 300px ;
+       transition: 1s;
+    }
+    #per {
+        grid-template-columns:  1fr;
+
+    }
+    .patroci img {
+        padding: 8px;
+        transition: 1s;
+    }
+}
+
+@media (max-width: 768px) {
+    .sec1 h2 {
+        font-size: 2em;
+    }
+    .moreinfo {
+        margin-top: 80px;
+        margin-bottom: 16px;
+        height: 10%;
+    }
+    .uno,
+    .dos,
+    .tres,
+    .quatro {
+        padding: 16px;
+    }
+    .partici {
+        padding: 16px;
+    }
+
+    .partici h1 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 620px) {
+    #per {
+        padding: 54px 8px 0px 8px;
+        transition: 1s;
+    }
+    #contenedor3 {
+        padding: 54px 10px 0px 10px;
+    }
+    #inmiss {
+        
+        position:initial;
+      
+    }
+    .moreinfo {
+        margin-top: 0px;
+        
+    }
+    #redes>img {
+       
+         width: 55px; 
+    }
+    #contenedor2 {
+        display: block;
+        text-align: center;
+
+        margin-bottom: 86px;
+    }
+    .sec2 img {
+        margin-top: 32px;
+
+    }    
+    .sec1,
+    .sec2 {
+        width: 70%;
+      
+    
+    }
+    .partici p {
+        font-size: 1em; 
+    }
+    .partici h1 {
+        font-size: 2em;
+    }
+        #footer>img {
+            width: 300px;
+    }
+}
+    
+
+
+@media (max-width: 425px) {
+    #contenedor3>h2 {
+        margin-bottom: 16px;
+       
+    }
+    .mensaje {
+        font-size: 2em;
+    }
+    #contador {
+       
+        font-size: 1em;
+    }
+    #colabo {
+        margin: 8px;  
+    }
+    #contenedor3 {
+        padding: 54px 0px 0px 0px;
+    }
+}

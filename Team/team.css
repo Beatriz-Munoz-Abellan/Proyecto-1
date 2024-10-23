@@ -1,0 +1,86 @@
+#contenedor3 {
+    padding: 54px 264px 0px 264px;
+    background-color: #0019ce;
+    color: white;
+    text-align: center;
+    transition: 1s;
+}
+
+#contenedor3>p {
+    font-size: 2em;
+}
+
+#susred {
+    display: grid;
+    place-content: center;
+}
+
+.imge {
+    width: 100%;
+}
+
+.borde {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 16px solid #7383f5;
+}
+
+#redes>img {
+    border: none;
+    padding: 16px;
+}
+
+#redes {
+    background-color: white;
+    display: none;
+    margin: auto;
+    margin-bottom: 32px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 2;
+    z-index: 1;
+}
+
+#susred:hover #redes {
+    display: flex;
+}
+
+#susred:hover .imge {
+    opacity: .8;
+}
+
+#susred:hover .borde {
+    border-color: white;
+    box-shadow: 8px 8px 10px rgb(74, 123, 247);
+}
+
+#contenedor3>h2 {
+    font-size: 4em;
+    margin-bottom: 32px;
+}
+
+#per {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#per figure figcaption {
+    padding-top: 16px;
+    text-align: left;
+}
+
+#per figure figcaption p {
+    font-size: 1em;
+    margin: 16px 0px 32px 0px;
+}
+
+#per figure figcaption h3 {
+    font-size: 35px;
+}
+
+#per figure {
+    margin: auto;
+    padding: 10px 50px 20px;
+}

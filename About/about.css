@@ -1,0 +1,42 @@
+#contenedor2 {
+    display: flex;
+    margin: auto;
+    margin-bottom: 86px;
+}
+
+.sec1,
+.sec2 {
+    width: 50%;
+    margin: auto;
+}
+
+.sec1 {
+    text-align: center;
+    margin-left: 16%;
+    margin-right: 8%;
+}
+
+.sec1 h2 {
+    font-size: 5em;
+    text-align: left;
+    transition: 1s;
+}
+
+.sec1 p {
+    font-size: 2em;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.sec1 button {
+    background-color: #0019ce;
+    border: 0px;
+    color: white;
+    margin-top: 32px;
+    padding: 16px 72px 16px 72px;
+}
+
+.sec2 img {
+    width: 70%;
+    box-shadow: 25px 25px rgb(255, 255, 255), 25px 25px 10px rgb(134, 134, 134);
+}

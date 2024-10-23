@@ -1,0 +1,125 @@
+.logo {
+    width: 150px;
+}
+
+.user {
+    border-radius: 20px;
+    padding: 8px;
+    height: 19px;
+    background-color: rgba(255, 255, 255, 0.171);
+}
+
+.user img{
+    width: 20px;
+    vertical-align: middle;
+}
+
+#menu-lateral{
+   font-size: 20px;
+   display: none;
+}
+
+#fondo {
+    justify-content: center;
+    display: grid;
+    grid-template-columns:  1fr 60% 25%;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/image_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.poslogo {
+    margin-left: 32px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    z-index: 1;
+    padding-top: 40px;
+}
+
+.info {
+    display: flex;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    z-index: 1;
+    padding-top: 32px;
+    margin-right: 16px;
+}
+
+.info a {
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+}
+
+.entrada {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    z-index: 1;
+    height: auto;
+    text-align: center;
+}
+
+.entrada h1 {
+    color: white;
+    font-size: 4em;
+}
+
+.degradado {
+    background: linear-gradient(90deg, #0019ce 0%, #b700ff 100%);
+    opacity: 80%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#close-lateral{
+    position: absolute;
+    top: 16px;
+    right: 8px;
+    display: none;
+}
+.fa-bars{
+	padding: 10px 20px;
+	
+	color: white;
+	cursor: pointer;
+}
+.fa-times{
+    display: none;
+	cursor: pointer;
+	padding: 0px 20px 40px 20px;
+}
+#menu {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    z-index: 1;
+    width: auto;
+    padding-top: 40px;
+    text-align: right;
+
+}
+
+#chk{
+	display: none;
+	margin: 5px;
+}
+#chk:checked + #menu{
+	right: 0px;
+}
+#menu a {
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+}

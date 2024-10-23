@@ -1,0 +1,156 @@
+#contenedor4 {
+    text-align: center;
+    padding: 54px;
+}
+
+#contenedor4>p {
+    font-size: 2em;
+}
+
+#contenedor4>h2 {
+    font-size: 4em;
+    margin-bottom: 32px;
+}
+
+#seci {
+    display: flex;
+    justify-content: center;
+    width: 71%;
+    margin: auto;
+
+}
+
+.agen {
+    width: 100%;
+    color: white;
+    padding: 40px 48px;
+    position: relative;
+
+}
+
+#trian { 
+    position: absolute;
+    border-left: 12px dotted transparent;
+    border-right: 12px dotted transparent;
+    bottom: -12px;
+    left: 45%;
+    height: 0;
+    width: 0; 
+    z-index: 11;
+}
+
+.content {
+    display: none;
+}
+.content.on {
+display: block;
+
+}
+
+.calloutDown{
+    border-top: 12px solid #0019ce;
+
+}
+
+.calloutDown2{
+    border-top: 12px solid #b76bc4;
+    
+}
+
+.calloutDown3{
+    border-top: 12px solid #ce9200;
+    
+}
+.calloutDown4{
+    border-top: 12px solid #a51628;
+    
+}
+
+
+.uno p:first-child,
+.dos p:first-child,
+.tres p:first-child,
+.quatro p:first-child {
+    font-size: 2em;
+}
+
+.uno {
+    background-color: #0019ce;
+}
+
+.dos {
+    background-color: #b76bc4;
+}
+
+.tres {
+    background-color: #ce9200;
+}
+
+.quatro {
+    background-color: #a51628;
+}
+
+#menj {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 70%;
+    height: 200px;
+    margin-top: 40px;
+    border: 10px solid rgba(167, 165, 165, 0.726);
+}
+
+#menj:hover {
+    border-image: linear-gradient(60deg, #0019ce, #b76bc4, #ce9200, #a51628) 50;
+    box-shadow: 8px 8px 10px rgb(134, 134, 134);
+}
+
+#clock {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+#inmiss {
+    text-align: left;
+    margin: 16px;
+}
+
+#inmiss h5 {
+    margin: 16px 0px 16px 0px;
+}
+
+#inmiss p {
+    margin: 16px 0px 16px 0px;
+    color: #919191;
+}
+
+#user {
+    border-radius: 50% 50%;
+    margin: 16px;
+    width: 72px;
+    height: 72px;
+}
+
+.moreinfo {
+    width: 70%;
+    height: 50%;
+    text-align: center;
+    border: 0px ;
+    box-shadow: rgba(0, 25, 206, 0.7) 5px 5px 10px;
+    background-color: white;
+}
+
+     
+.moreinfo:hover {
+    box-shadow: 8px 8px 10px rgb(134, 134, 134);
+}
+
+.justar {
+    width: 50%;
+    text-align: center;
+    margin-top: 8%;
+}
+ 
+      
+      
+      

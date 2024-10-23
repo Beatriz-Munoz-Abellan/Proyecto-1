@@ -1,0 +1,19 @@
+.caja {
+    padding: 24px;
+    background-color: #0019ce;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin: 48px 48px;
+    box-shadow: 0px 5px 10px rgba(121, 119, 119, 0.548);
+}
+
+#contador {
+    margin-top: 16px;
+    font-size: 3em;
+}
+
+.mensaje {
+    font-size: 3em;
+}

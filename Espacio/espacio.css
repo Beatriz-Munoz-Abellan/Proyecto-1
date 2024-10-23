@@ -1,0 +1,41 @@
+#espai{
+    justify-content: center;
+    display: grid;
+    grid-template-columns:  1fr;
+    background-image: url("../img/p1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+.degra {
+    background: linear-gradient(90deg, #0019ce 0%, #b700ff 100%);
+    opacity: 70%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#colabo{
+    display: flex;
+    color: white;
+    margin: 32px;
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.partici{
+    padding: 56px;
+}
+.partici h1{
+    font-size: 4em;
+}
+.partici p{
+    font-size: 2em;
+}
+

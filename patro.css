@@ -1,0 +1,33 @@
+#caja1 {
+    background-color: #0019ce;
+    color: white;
+    text-align: center;
+    padding: 56px;
+}
+
+#caja1>h2 {
+    font-size: 4em;
+    margin-bottom: 32px;
+}
+
+#caja1>p {
+    font-size: 2em;
+}
+
+.patroci img {
+    padding: 40px;
+    margin-bottom: 20%;
+}
+
+#caja2 {
+    text-align: center;
+}
+
+#partido {
+    margin-top: -20%;
+    margin-bottom: 112px;
+}
+
+#footer {
+    margin-bottom: 112px;
+}
